@@ -44,7 +44,7 @@ paths:
         200:
           description: OK
       x-google-backend:
-        address: https://us-central1-mohammed-coe453.cloudfunctions.net/sub
+        address: https://us-central1-mohammed-coe453.cloudfunctions.net/div
 
   /mul:
     post:
@@ -56,4 +56,4 @@ paths:
         200:
           description: OK
       x-google-backend:
-        address: https://us-central1-mohammed-coe453.cloudfunctions.net/sub
+        address: https://us-central1-mohammed-coe453.cloudfunctions.net/mul
