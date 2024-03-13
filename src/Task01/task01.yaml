@@ -1,0 +1,56 @@
+swagger: "2.0"
+info:
+  title: task01
+  description: API Walk through.
+  version: 1.0.0
+
+host: task01.apigateway.mohammed-coe453.cloud.goog
+basePath: /
+schemes:
+  - https
+  - http
+
+paths:
+  /add:
+    get:
+      operationId: getAdd
+      summary: Open an existing GET running Cloud Function.
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK
+      x-google-backend:
+        address: https://us-central1-mohammed-coe453.cloudfunctions.net/add
+    post:
+      operationId: postAdd
+      summary: Open an existing POST running Cloud Function.
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK
+      x-google-backend:
+        address: https://us-central1-mohammed-coe453.cloudfunctions.net/add
+
+  /sub:
+    get:
+      operationId: getSub
+      summary: Open an existing GET running Cloud Function.
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK
+      x-google-backend:
+        address: https://us-central1-mohammed-coe453.cloudfunctions.net/sub
+    post:
+      operationId: postSub
+      summary: Open an existing POST running Cloud Function.
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK
+      x-google-backend:
+        address: https://us-central1-mohammed-coe453.cloudfunctions.net/sub
