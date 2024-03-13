@@ -1,6 +1,6 @@
 const CONFIG_NAME = "task01";
 const BELONG_NAME = "task01";
-const YAML_FILE_PATH = "src/Task01/task01.yaml";
+const YAML_FILE_PATH = "src/task01/task01.yaml";
 const PROJECT_ID = "mohammed-coe453";
 const GATEWAY_NAME = "task01";
 const REGION = "us-central1";
