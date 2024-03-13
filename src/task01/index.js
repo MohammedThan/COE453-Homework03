@@ -1,5 +1,5 @@
 const CONFIG_NAME = "task01";
-const BELONG_NAME = "homework3";
+const BELONG_NAME = "task01";
 const YAML_FILE_PATH = "src/Task01/task01.yaml";
 const PROJECT_ID = "mohammed-coe453";
 const GATEWAY_NAME = "task01";

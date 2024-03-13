@@ -12,16 +12,6 @@ schemes:
 
 paths:
   /add:
-    get:
-      operationId: getAdd
-      summary: Open an existing GET running Cloud Function.
-      produces:
-        - application/json
-      responses:
-        200:
-          description: OK
-      x-google-backend:
-        address: https://us-central1-mohammed-coe453.cloudfunctions.net/add
     post:
       operationId: postAdd
       summary: Open an existing POST running Cloud Function.
@@ -34,9 +24,9 @@ paths:
         address: https://us-central1-mohammed-coe453.cloudfunctions.net/add
 
   /sub:
-    get:
-      operationId: getSub
-      summary: Open an existing GET running Cloud Function.
+    post:
+      operationId: postSub
+      summary: Open an existing POST running Cloud Function.
       produces:
         - application/json
       responses:
@@ -44,8 +34,21 @@ paths:
           description: OK
       x-google-backend:
         address: https://us-central1-mohammed-coe453.cloudfunctions.net/sub
+  /div:
     post:
-      operationId: postSub
+      operationId: postDiv
+      summary: Open an existing POST running Cloud Function.
+      produces:
+        - application/json
+      responses:
+        200:
+          description: OK
+      x-google-backend:
+        address: https://us-central1-mohammed-coe453.cloudfunctions.net/sub
+
+  /mul:
+    post:
+      operationId: postMul
       summary: Open an existing POST running Cloud Function.
       produces:
         - application/json
