@@ -7,7 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index.js",
-    "task01": "node src/task01/index.js"
+    "task01": "node src/task01/index.js",
+    "task02": "node src/task02/index.js"
   },
   "keywords": [],
   "author": "",
